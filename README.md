@@ -15,7 +15,7 @@ This prject was created based on a template shared with microverse. It only cons
 
 ## Online Version: 
 
-**You can get to the page via this [Link](https://github.com/ArkanKovanAbdullah/Arkan-Kovan-Abdullah.github.io.git).**
+**You can get to the page via this [Link](https://arkankovanabdullah.github.io/Arkan-Kovan-Abdullah.github.io/).**
 
 ## Screenshots to the online version: **
 
