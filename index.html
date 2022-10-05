@@ -197,12 +197,12 @@
                   If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
                 </p>
                 <form class="contact-me-form" id="form" action="https://formspree.io/f/mwkzojvr" method="post">
-                  <label class="labels"> Name: </label>
-                  <input type="text" name="name" placeholder="Full name" class="contact-me-input" maxlength="30" required>
-                  <label class="labels"> Email: </label>
-                  <input type="email" name="email" id="em" placeholder="Email address" class="contact-me-input" required>
-                  <label class="labels"> Message: </label>
-                  <textarea name="message" placeholder="Write your message here" class="contact-me-input textarea" maxlength="500" required></textarea>
+                  <label for="#in-one" class="labels"> Name: </label>
+                  <input title="name" id="in-one" type="text" name="name" placeholder="Full name" class="contact-me-input" maxlength="30" required> 
+                  <label for="#in-one" class="labels"> Email: </label>
+                  <input title="em-mail" id="in-one" type="email" name="email" id="em" placeholder="Email address" class="contact-me-input" required> 
+                  <label for="#in-one" class="labels"> Message: </label>
+                  <textarea title="message" id="in-one" name="message" placeholder="Write your message here" class="contact-me-input textarea" maxlength="500" required></textarea> 
                   <button type="submit" class="contact-me-button btn">Get In Touch</button>
                   <small class="error-msg"></small>
                 </form>
