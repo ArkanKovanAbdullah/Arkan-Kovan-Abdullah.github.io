@@ -67,7 +67,7 @@ header {
 }
 
 #connect-text {
-  color: #7f8cff;
+  color: #0017eb;
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -199,7 +199,7 @@ a:hover {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #7f8cff;
+  color: #0017eb;
   margin-right: 5px;
 }
 
@@ -251,7 +251,7 @@ a:hover {
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #4f5869;
 }
 
 .projects-description-one {
@@ -332,7 +332,7 @@ a:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #0017eb;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -528,11 +528,11 @@ a:hover {
 
 .contact-me-description {
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
-  font-style: normal;
+  font-style: bold;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #ebebff;
+  color: #000;
   text-align: center;
   margin-top: 12px;
   width: 85%;
@@ -564,6 +564,19 @@ a:hover {
   color: black;
 }
 
+.labels {
+  width: 327px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  font-style: bold;
+  display: none;
+}
+
 .textarea {
   width: 327px;
   min-height: 200px;
@@ -581,7 +594,7 @@ a:hover {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #001aff;
   width: 160px;
   height: 48px;
   margin-left: auto;
@@ -760,5 +773,18 @@ hr {
 
   #languages-text {
     margin-top: 0;
+  }
+
+  .labels {
+    width: 447px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: bold;
+    display: none;
   }
 }
