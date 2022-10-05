@@ -566,12 +566,10 @@ a:hover {
 
 .labels {
   width: 327px;
-  margin-left: auto;
   margin-right: auto;
   margin-left: auto;
-  margin-right: auto;
   margin-bottom: 10px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -782,7 +780,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
