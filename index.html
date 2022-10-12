@@ -12,22 +12,31 @@
         <script src="https://kit.fontawesome.com/6776bca25f.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
-            <nav class="be-flex">
-                <div class="navitems Logo" id="my-name"><a href="index.html">My Logo</a></div>
-                <i class="fa-solid fa-bars navitems navitem-one fa-2xl" id="remove-display"></i>
-                <div class="desk-nav">
-                    <a href="#section-two">Portfolio</a>
-                    <a href="#about-myself">About</a>
-                    <a href="#contact-me">Contact</a>
-                </div>
-            </nav>
-        </header>
         <section id="section-one">
+            <header>
+                <nav class="be-flex">
+                    <div class="navitems Logo" id="my-name"><a href="index.html">My Logo</a></div>
+                    <div class="btn-menu" id="remove-display">
+                        <div class="hamburger "></div>
+                    </div>
+                    <div class="desk-nav">
+                        <a href="#section-two">Portfolio</a>
+                        <a href="#about-myself">About</a>
+                        <a href="#contact-me">Contact</a>
+                    </div>
+                </nav>
+            </header>
+            <div class="mobile-navigation display-none">
+                <ul class="mobile-navigation-list">
+                    <li><a class="mobile-navs" href="#section-two">Portfolio</a></li>
+                    <li><a class="mobile-navs" href="#about-myself">About</a></li>
+                    <li><a class="mobile-navs" href="#contact-me">Contact</a></li>
+                </ul>
+            </div>
             <div class="desktop-me">
                 <div id="section-one-one">
                     <div id="title-box">
-                        <h1 id="my-name">I’m Arkan, Glad to see you!</h1>
+                        <h1 id="my-name">I’m Arkan,<br> Glad to see you!</h1>
                     </div>
                     <div id="description-box">
                         <p id="description-tex">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -210,6 +219,7 @@
                 </form>
             </div>
           </section>
-          
+          <script src="hamburger.js"></script>
+          <script src="main.js"></script>
     </body>
 </html>

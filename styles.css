@@ -18,6 +18,97 @@ header {
   margin: auto;
 }
 
+.btn-menu {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.hamburger {
+  position: absolute;
+  z-index: 10;
+  width: 30px;
+  height: 4px;
+  background-color: #6070ff;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.chnage-color {
+  background-color: #fff;
+  width: 0;
+}
+
+.hamburger::before,
+.hamburger::after {
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: inherit;
+  border-radius: 5px;
+  content: '';
+  transition: all 0.2s ease-in-out;
+}
+
+.display-none {
+  display: none;
+}
+
+.hamburger::before {
+  transform: translateY(-10px) ;
+}
+
+.hamburger::after {
+  transform: translateY(10px);
+}
+
+.mobile-navigation-list {
+  list-style: none;
+  padding-top:60px
+}
+
+.mobile-navs {
+  user-select: none;
+  font-family: 'poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.mobile-navigation-list li {
+  margin-top: 40px;
+  color: #fff;
+}
+
+.btn-menu.open .hamburger {
+  box-shadow: none;
+}
+.btn-menu.open .hamburger::before {
+  transform: rotate(45deg);
+}
+.btn-menu.open .hamburger::after {
+  transform: rotate(-45deg);
+}
+
+.mobile-navigation {
+  z-index: 1;
+  top: 0;
+  position:fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: #6070ff;
+  backdrop-filter: blur(5px);
+  mix-blend-mode: multiply;
+}
+
 #temp {
   color: #091e42;
   font-weight: 700;
@@ -108,7 +199,7 @@ a:hover {
 
 #title-box {
   padding-top: 30px;
-  margin-top: 40px;
+  margin-top: 80px;
   height: auto;
 }
 
@@ -298,7 +389,7 @@ a:hover {
 .about-myself {
   background-color: #fff;
   width: 100%;
-  height: 1200px;
+  height: auto;
   padding: 0 0;
   border-top-right-radius: 100px;
   margin-top: 60px;
@@ -489,6 +580,8 @@ a:hover {
   padding-top: 0;
   padding-bottom: 100px;
   background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .desk-nav {
