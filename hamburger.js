@@ -2,7 +2,7 @@ const navigationLinksMobile = document.querySelectorAll('.mobile-navs');
 const menuBtn = document.querySelector('.btn-menu');
 const mobileeNav = document.querySelector('.mobile-navigation');
 const hba = document.querySelector('.hamburger');
-
+// =======================================================================
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
   if (!menuOpen) {
