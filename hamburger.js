@@ -3,7 +3,6 @@ const menuBtn = document.querySelector('.btn-menu');
 const mobileeNav = document.querySelector('.mobile-navigation');
 const body = document.querySelector('body');
 const hba = document.querySelector('.hamburger');
-// hello
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
   if (!menuOpen) {
