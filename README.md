@@ -4,7 +4,12 @@
 
 > Description the project.
 
-This prject was created based on a template shared with microverse. It only consists of two sections. The navigation and sub section
+This prject was created based on a template shared with microverse.I did this branch with my coding partner we have implemented the following features: 
+
+* When the user clicks (or taps) the hamburger button, the * mobile menu appears.
+* When the user clicks (or taps) the close (X) button, the mobile menu disappears.
+* When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
+* When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
 
 
 ## Built With
@@ -61,6 +66,21 @@ You will need a browser to see the Portfolio.
 - GitHub: [@Arkankovanabdullah](https://github.com/Arkankovanabdullah)
 - Twitter: [@arkan_kovan](https://twitter.com/Arkan_kovan)
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+### Contributing with : 
+- GitHub: [Osama Ashraf](https://github.com/osamaashraf6)
+- Twitter: [Osama Ashraf](https://twitter.com/OsamaAshraf578?t=l75KjrhQgK4h-vSPfgk1gA&s=08)
+- LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osama-salem-2a046b203)
+
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 ## 📝 License
 
