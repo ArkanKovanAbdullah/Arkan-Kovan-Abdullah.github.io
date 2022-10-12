@@ -624,7 +624,7 @@ a:hover {
 
 .contact-me-description {
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
-  font-style: bold;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -669,7 +669,7 @@ a:hover {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  font-style: bold;
+  font-style: normal;
   display: none;
 }
 
@@ -727,7 +727,7 @@ hr {
 
   .projects-card-one {
     background-image: url("Snapshoot Portfolio desktop 1.svg");
-    aspect-ratio: 1.214285714285714/1;
+    aspect-ratio: 1.2 / 1;
     background-repeat: no-repeat;
     margin: 24px 0 24px 24px;
     width: 50%;
@@ -737,7 +737,7 @@ hr {
 
   .projects-card-two {
     background-image: url("Snapshoot Portfolio 2.svg");
-    aspect-ratio: 1.214285714285714/1;
+    aspect-ratio: 1.2 / 1;
     background-repeat: no-repeat;
     margin: 24px 0 24px 24px;
     order: 2;
@@ -748,7 +748,7 @@ hr {
 
   .projects-card-three {
     background-image: url("Snapshoot Portfolio desktop.svg");
-    aspect-ratio: 1.214285714285714/1;
+    aspect-ratio: 1.2 / 1;
     background-repeat: no-repeat;
     margin: 24px 0 24px 24px;
     width: 50%;
@@ -758,7 +758,7 @@ hr {
 
   .projects-card-four {
     background-image: url("Snapshoot Portfolio (1).svg");
-    aspect-ratio: 1.214285714285714/1;
+    aspect-ratio: 1.2 / 1;
     background-repeat: no-repeat;
     margin: 24px 0 24px 24px;
     order: 2;
@@ -779,10 +779,10 @@ hr {
     justify-content: center;
     color: #344563;
     font-family: sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    font-style: bold;
+    font-style: normal;
   }
 
   .desk-nav span {
@@ -880,7 +880,7 @@ hr {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    font-style: bold;
+    font-style: normal;
     display: none;
   }
 }
