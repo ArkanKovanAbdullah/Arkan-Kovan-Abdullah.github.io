@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+.stop-scroll {
+  overflow: hidden;
+}
+
 header {
   background-color: #fff;
 }
@@ -81,6 +85,7 @@ header {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+  color: #fff;
 }
 
 .mobile-navigation-list li {
@@ -102,9 +107,10 @@ header {
 }
 
 .mobile-navigation {
+  overflow: hidden;
   z-index: 1;
-  top: 0;
   position: fixed;
+  top: 0;
   height: 100vh;
   width: 100%;
   background-color: #6070ff;
@@ -708,12 +714,39 @@ hr {
   bottom: 8px;
 }
 
+.card-button {
+  margin-top: 20px;
+  width: 40%;
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: transparent;
+  border: 1.75px solid #396df2;
+  border-radius: 8px;
+  padding: 10px 2px;
+}
+
 @media (min-width: 768px) {
   #section-two-one {
     width: 85%;
     flex-direction: row;
     height: auto;
     gap: 10px;
+  }
+
+  .card-button {
+    margin-top: 52px;
+  }
+
+  .card-button {
+    cursor: pointer;
+    color: #ffff;
+    background-color: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   }
 
   .desktop-section-two-one {
@@ -869,6 +902,19 @@ hr {
 
   #languages-text {
     margin-top: 0;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: none;
   }
 
   .labels {
