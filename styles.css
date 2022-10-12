@@ -90,6 +90,7 @@ header {
 
 .btn-menu.open .hamburger {
   box-shadow: none;
+  transform: translateX(-16px);
 }
 .btn-menu.open .hamburger::before {
   transform: rotate(45deg);
