@@ -55,8 +55,7 @@
             </div>
         </section>
         <Section id="section-two">
-            <div id="section-two-one">
-                
+            <div id="section-two-one" onclick="detail('project1')">
                 <div class="projects-card-one"></div>
                 <div class="desktop-section-two-one">
                     <div><h2 class="tonic-text">Tonic</h2></div>
@@ -76,6 +75,11 @@
                     <span><button class="see-more-btn">See More</button></span>
                 </div>
             </div>
+            
+            <div class="parpopup">
+                <div class="parpopup__popup"></div>
+            </div>
+
             <div id="section-two-one">
                     <div class="projects-card-two"></div>
                 <div class="desktop-section-two-one">
@@ -209,16 +213,21 @@
                 </p>
                 <form class="contact-me-form" id="form" action="https://formspree.io/f/mwkzojvr" method="post">
                   <label for="#in-one" class="labels"> Name: </label>
-                  <input title="name" id="in-one" type="text" name="name" placeholder="Full name" class="contact-me-input" maxlength="30" required> 
+                  <input title="name" id="name" type="text" name="name" placeholder="Full name" class="contact-me-input" maxlength="30" required> 
                   <label for="#in-one" class="labels"> Email: </label>
-                  <input title="em-mail" id="in-one" type="email" name="email" id="em" placeholder="Email address" class="contact-me-input" required> 
+                  <input title="em-mail" id="email" type="email" name="email" id="em" placeholder="Email address" class="contact-me-input" required> 
                   <label for="#in-one" class="labels"> Message: </label>
                   <textarea title="message" id="in-one" name="message" placeholder="Write your message here" class="contact-me-input textarea" maxlength="500" required></textarea> 
+                  <p id="email-validation-error" id="emailerror">
+                    Your email is invalid, email should be in lowercase
+                  </p>
                   <button type="submit" class="contact-me-button btn">Get In Touch</button>
-                  <small class="error-msg"></small>
+                  <small class="error-msg"> Error </small>
                 </form>
             </div>
           </section>
           <script src="hamburger.js"></script>
+          <script src="index.js"></script>
+          <script src="formValidation.js"></script>
     </body>
 </html>
