@@ -781,11 +781,6 @@ a:hover {
   margin-left: 10px;
 }
 
-.parpopup__popup > ul > li:nth-child(1) > a {
-  font-weight: bold;
-  color: #344563 !important;
-}
-
 .popup__responsive {
   width: 100%;
   height: auto;
@@ -874,8 +869,8 @@ a:hover {
 }
 
 .project {
-  margin : 0;
-  padding : 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -888,7 +883,7 @@ a:hover {
   font-family: 'Poppins', 'Courier New', Courier, monospace;
   padding: 4px 11px;
   border-radius: 5px;
-  transition: opacity 0.5s
+  transition: opacity 0.5s;
 }
 
 @media (min-width: 768px) {
@@ -1121,7 +1116,7 @@ a:hover {
   .parpopup__popup > ul > li:nth-child(2)::before,
   .parpopup__popup > ul > li:nth-child(3)::before {
     content: "\2022";
-    color : #c1c7d0;
+    color: #c1c7d0;
     display: inline-block;
     width: 1em;
     margin-left: 0;
@@ -1150,6 +1145,7 @@ a:hover {
     display: flex;
     align-items: center;
     margin-bottom: 13px;
+    border-bottom: grey 1px solid;
   }
 
   hr {
