@@ -16,7 +16,7 @@ This prject was created based on a template shared with microverse.I did this br
 
 - HTML 
 - CSS
-
+- JavaScript
 
 ## Online Version: 
 
