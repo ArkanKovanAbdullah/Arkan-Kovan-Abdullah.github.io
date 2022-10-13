@@ -111,9 +111,9 @@ function detail(projectCardNumber) {
 function closes() {
   parpopup.style.display = 'none';
 }
-if(1==2) {
-  close();
-  detail(card-number-one);
+if (1 === 2) {
+  closes();
+  detail('card-number-one');
 }
 window.onclick = function closeOnWindowClick(event) {
   if (event.target === parpopup) {
