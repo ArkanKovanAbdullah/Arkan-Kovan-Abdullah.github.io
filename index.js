@@ -72,11 +72,9 @@ const details = [
 const parpopup = document.querySelector('.parpopup');
 // eslint-disable-next-line camelcase
 const parpopup__popup = document.querySelector('.parpopup__popup');
-
-
 function detail( projectCardNumber ) {
   parpopup.style.display = 'flex';
-  const update = details.filter((card) => card.cardNumber == projectCardNumber);
+  const update = details.filter((card) => card.cardNumber === projectCardNumber);
   parpopup__popup.innerHTML = `
   <div class="head">
   <span class="name">${update[0].title}</span>
@@ -114,7 +112,7 @@ function closes() {
   parpopup.style.display = 'none';
 }
 
-window.onclick = function (event) {
+window.onclick = function closeOnWindowClick (event) {
   if (event.target === parpopup) {
     parpopup.style.display = 'none';
   }
