@@ -72,7 +72,7 @@ const details = [
 const parpopup = document.querySelector('.parpopup');
 // eslint-disable-next-line camelcase
 const parpopup__popup = document.querySelector('.parpopup__popup');
-function detail( projectCardNumber ) {
+function detail(projectCardNumber) {
   parpopup.style.display = 'flex';
   const update = details.filter((card) => card.cardNumber === projectCardNumber);
   parpopup__popup.innerHTML = `
@@ -111,8 +111,11 @@ function detail( projectCardNumber ) {
 function closes() {
   parpopup.style.display = 'none';
 }
-
-window.onclick = function closeOnWindowClick (event) {
+if(1==2) {
+  close();
+  detail(card-number-one);
+}
+window.onclick = function closeOnWindowClick(event) {
   if (event.target === parpopup) {
     parpopup.style.display = 'none';
   }

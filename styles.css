@@ -148,11 +148,6 @@ header {
   margin-left: 20px;
 }
 
-.parpopup__popup > ul > li:nth-child(1) > a {
-  font-weight: bold;
-  color: #344563 !important;
-}
-
 #my-name {
   font-weight: 700;
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
