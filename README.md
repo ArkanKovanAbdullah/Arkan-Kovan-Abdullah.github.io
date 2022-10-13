@@ -4,12 +4,14 @@
 
 > Description the project.
 
-This prject was created based on a template shared with microverse.I did this branch with my coding partner we have implemented the following features: 
+> This branch (Pop-up) I did it by contributing with my coding partner we did in this branch the followings 👌 :
 
-* When the user clicks (or taps) the hamburger button, the * mobile menu appears.
-* When the user clicks (or taps) the close (X) button, the mobile menu disappears.
-* When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
-* When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
+- [x] When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
+- [x] When the user clicks (or taps) the close (X) button, the popup disappears.
+- [x] We used a JavaScript array to store all of the information for all projects.💯
+- [x] We stored the following pieces of data in a JavaScript object, at a minimum: name, description, featured image, technologies, link to live version, link to source.
+- [x] We updated the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.
+- [x] We implemented popups for both mobile and desktop screen sizes:
 
 
 ## Built With
