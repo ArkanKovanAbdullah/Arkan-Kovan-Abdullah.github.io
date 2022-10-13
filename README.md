@@ -4,12 +4,11 @@
 
 > Description the project.
 
-This prject was created based on a template shared with microverse.I did this branch with my coding partner we have implemented the following features: 
+> This branch (Cocat-validation) I did it by contributing with my coding partner we did in this branch the followings 👌 :
 
-* When the user clicks (or taps) the hamburger button, the * mobile menu appears.
-* When the user clicks (or taps) the close (X) button, the mobile menu disappears.
-* When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
-* When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
+-  When the user inputs his/her email in capitol letters and the website prevents them from submitting form, and shows an error. 
+
+
 
 
 ## Built With
