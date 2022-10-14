@@ -1,10 +1,10 @@
-const navigationLinksMobile = document.queryselectorAll('.mobile-navs');
+const navigationLinksMobile = document.querySelectorAll('.mobile-navs');
 const menuBtn = document.querySelector('.btn-menu');
 const mobileeNav = document.querySelector('.mobile-navigation');
 const body = document.querySelector('body');
 const hba = document.querySelector('.hamburger');
 let menuOpen = false;
-menuBtn.addEventistener('click', () => {
+menuBtn.addEventListener('click', () => {
   if (!menuOpen) {
     body.classList.add('stop-scroll');
     menuBtn.classList.add('open');
