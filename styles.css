@@ -881,11 +881,14 @@ a:hover {
 
 #email-validation-error {
   margin-left: auto;
+  background-color: #ffffffb0;
   margin-right: auto;
   color: red;
-  border: 1px black solid;
   opacity: 0;
   font-family: 'Poppins', 'Courier New', Courier, monospace;
+  padding: 4px 11px;
+  border-radius: 5px;
+  transition: opacity 0.5s
 }
 
 @media (min-width: 768px) {
