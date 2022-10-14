@@ -99,6 +99,7 @@ function detail(projectCardNumber) {
       <li>${update[0].lang.lang3}</li>
       <li>${update[0].lang.lang4}</li>
     </ul>
+    <hr>
     <div class="btns live">
       <button class="live"><span>See live</span> <i class="fa-brands fa-linkedin"></i></button><button class="live">See source <i class="fab fa-github"></i></button>
     </div>
