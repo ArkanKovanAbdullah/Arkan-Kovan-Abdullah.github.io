@@ -1,23 +1,24 @@
-const emlInput = document.getElementByid('email');
+const emlInput = document.getElementById('email');
 const cntcForm = document.getElementById('form');
+const names = document.getElementById('name');
+const textarea = document.getElementById('in-one');
 const validationErr = document.getElementById('email-validation-error');
 
 cntcForm.addEventListener('submit', (g) => {
     if (emlInput.value !== emlInput.value.toLowerCase()) {
         g.preventDefault();
-        validationerr.style.opacity = 100;
-        console.log("yes!");
+        validationErr.style.opacity = 100;
     } else {
         const data = {
-            name: name.value,
+            name: names.value,
             email: email.value,
             textarea: textarea.value,
           };
-          localStorage.setItem('data',data);
+          localStorage.setItem('data', JSON.stringify(data));
     }
 });
 const x = JSON.parse(localStorage.getItem('data'));
-name.value = x.name;
+names.value = x.name;
 email.value = x.email;
 textarea.value = x.textarea;
 
